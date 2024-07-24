@@ -7,7 +7,7 @@ function toNumber(value) {
         return value;
     }
     else {
-        throw new Error("Invalid value");
+        throw "Invalid value";
     }
 }
-console.log(toNumber("10"));
+console.log(toNumber(""));

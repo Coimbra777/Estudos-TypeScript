@@ -4,8 +4,8 @@ function toNumber(value: string | number) {
   } else if (typeof value === "number") {
     return value;
   } else {
-    throw new Error("Invalid value");
+    throw "Invalid value";
   }
 }
 
-console.log(toNumber("10"));
+console.log(toNumber(""));
